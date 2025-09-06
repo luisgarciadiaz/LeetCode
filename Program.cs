@@ -2,9 +2,9 @@
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine( LeetCode.strings.lengthofLongestSubstring("abcabcbb"));
-        Console.WriteLine(LeetCode.strings.lengthofLongestSubstring("bbbbb"));
-        Console.WriteLine(LeetCode.strings.lengthofLongestSubstring("pwwkew"));
+        Console.WriteLine(arrays.FindMedianSortedArrays([1, 2], [2]));
+        Console.WriteLine(arrays.FindMedianSortedArrays([1, 2], [3,4]));
+      
 
     }
 }
